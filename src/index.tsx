@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "bootstrap/dist/css/bootstrap.min.css";
+import "primereact/resources/themes/bootstrap4-dark-blue/theme.css";
+//import "primereact/resources/themes/arya-green/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
+import 'primeflex/primeflex.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import CounterDemo from './Components/CounterDemo';
+import Navbar from './Components/NavBar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CounterDemo></CounterDemo>     
+     
+      <Navbar></Navbar>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
